@@ -1,0 +1,80 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+:root{
+  font-size: 62.5%; /* Aqui uso para poder transformar os px em rem sem precisar calcular */
+}
+
+/* REM = Root EM */
+
+body{
+  background-color: #ECE9FD;
+  padding: 6.0 rem 2.3rem 6.6rem;
+  font-size: 1.6 rem;
+  font-family: 'Epilogue', sans-serif;
+
+}
+
+mai{
+  max-width: 33.0 rem;
+  margin: 0 auto;
+}
+
+main p:first-child{ /* SIGNIFICA QUE ESTOU USANDO O PRIMEIRO P DA MAIN*/
+  color: #7158EF;
+  letter-spacing: 3px;/* para valor até 3(1-2-3) pequenos posso usar em px */
+  text-transform: uppercase; /* para deixar o texto em letras grandess  */
+  line-height:3.2rem ;
+  margin-bottom: 1.7rem;
+  margin-top: 6.0rem;
+}
+  
+
+h1{
+  font-size: 4.0rem;
+  line-height: 4.8rem;
+  color: #090039;
+  margin-bottom: 1.5rem;
+  font-weight: 800;
+}
+
+
+h1 + p {/* SIGNIFICA QUE ESTOU USANDO O P QUE VEM DEPOIS DO H1*/
+  color: rgba(10, 0, 57, 0.64);
+  line-height: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+
+a{
+  color:  #090039;
+  text-decoration: none;
+}
+
+a:hover{ /*uso para mudar a cor quando passo o mouse por cima */
+font-weight: bold;
+}
+
+ul{
+  margin: 7.2rem;
+}
+
+ul li{
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  color: #090039;
+  max-width:25.7rem ;
+  display: flex;
+  gap: 3.8rem;
+}
+
+ul li span{
+  font-weight: 800;
+  font-size: 7.2rem;
+  line-height: 8.0rem;
+  letter-spacing: -2px;
+  color: #090039;
+}
